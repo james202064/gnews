@@ -12,8 +12,8 @@ describe('web', () => {
   });
 
   it('should display menu', () => {
-      getMenu().contains(`You're up and running`)
-      getMenu().contains(`Learning materials`)
-      getMenu().contains(`Enable faster CI & better DX`)
+    getMenu().contains(`You're up and running`);
+    getMenu().contains(`Learning materials`);
+    getMenu().contains(`Enable faster CI & better DX`);
   });
 });

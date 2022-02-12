@@ -7,7 +7,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Welcome to NX!
-
+11
         </title>
       </Head>
       <main className="app">

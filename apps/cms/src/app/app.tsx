@@ -3,13 +3,14 @@ import styles from './app.module.css';
 import NxWelcome from './nx-welcome';
 
 import { Route, Link } from 'react-router-dom';
+import { Header } from '@gnews/header';
 
 export function App() {
   return (
     <>
-      <NxWelcome title="cms" />
-      <div />
-
+      {/* <NxWelcome title="cms" /> */}
+      {/* <div /> */}
+      <Header title={'cms'} data={['2', '3']} />
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}

@@ -1,4 +1,5 @@
 import styles from './index.module.css';
+import { Header } from '@gnews/header';
 
 export function Index() {
   /*
@@ -8,6 +9,7 @@ export function Index() {
    */
   return (
     <div className={styles.page}>
+      <Header title={'web'} data={['1', '2']}></Header>
       <div className="wrapper">
         <div className="container">
           <div id="welcome">

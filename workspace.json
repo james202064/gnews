@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
+    "cms": "apps/cms",
+    "cms-e2e": "apps/cms-e2e",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }

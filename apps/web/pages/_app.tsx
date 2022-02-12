@@ -6,9 +6,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to NX!
-11
-        </title>
+        <title>Welcome to NX! 11</title>
       </Head>
       <main className="app">
         <Component {...pageProps} />

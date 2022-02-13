@@ -7,6 +7,8 @@
     "build": "nx build",
     "test": "nx test",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx,css,json}'",
+    "local-start": "nx run web:serve:production",
+    "clean": "rm -rf dist",
     "lint-staged": "lint-staged"
   },
   "private": true,

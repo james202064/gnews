@@ -71,7 +71,7 @@
     "url-loader": "^3.0.0"
   },
   "lint-staged": {
-    "*.{js,json,md,ts,tsx}": [
+    "*.{js,jsx,ts,tsx,json,md}": [
       "yarn prettier:fix"
     ]
   }

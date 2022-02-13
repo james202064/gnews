@@ -15,18 +15,9 @@ export function Header(props: HeaderProps) {
       {data?.map((item, index) => {
         return <li key={index}>{item}</li>;
       })}
-      <button className={styles['btn']}>
-          
-          Click
-      </button>
-      <button className={styles['btn']}>
-          
-          Click
-      </button>
-      <button className={styles['btn']}>
-          
-          Click
-      </button>
+      <button className={styles['btn']}>Click</button>
+      <button className={styles['btn']}>Click</button>
+      <button className={styles['btn']}>Click</button>
     </div>
   );
 }

@@ -8,7 +8,7 @@
     "test": "nx test",
     "local-start": "nx run web:serve:production",
     "clean": "rm -rf dist",
-    "prettier:fix": "prettier --write",
+    "prettier:fix": "prettier --write .",
     "prettier:check": "prettier --check ."
   },
   "private": true,
@@ -72,8 +72,7 @@
   },
   "lint-staged": {
     "src/*.{ts,tsx}": [
-      "yarn prettier:fix",
-      "yarn lint"
+      "yarn prettier:fix"
     ]
   }
 }

@@ -14,7 +14,7 @@ export function App() {
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}
-      <h1>Welcome cms change</h1>
+      <h1>Welcome cms change12213</h1>
       <br />
       <hr />
       <br />
@@ -28,7 +28,7 @@ export function App() {
           </li>
         </ul>
       </div>
-      <Route
+      {/* <Route
         path="/"
         exact
         render={() => (
@@ -46,8 +46,7 @@ export function App() {
             <Link to="/">Click here to go back to root page.</Link>
           </div>
         )}
-      />
-      {/* END: routes */}
+      /> */}
     </>
   );
 }

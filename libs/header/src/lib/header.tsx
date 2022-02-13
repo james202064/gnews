@@ -19,6 +19,14 @@ export function Header(props: HeaderProps) {
           
           Click
       </button>
+      <button className={styles['btn']}>
+          
+          Click
+      </button>
+      <button className={styles['btn']}>
+          
+          Click
+      </button>
     </div>
   );
 }

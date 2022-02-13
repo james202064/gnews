@@ -16,6 +16,9 @@ export function Header(props: HeaderProps) {
         return <li key={index}>{item}</li>;
       })}
       <button className={styles['btn']}>Click</button>
+      <button className={styles['btn']}>Click</button>
+      <button className={styles['btn']}>Click</button>
+      <button className={styles['btn']}>Click</button>
     </div>
   );
 }

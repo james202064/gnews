@@ -8,12 +8,6 @@ describe('web', () => {
     cy.log('Logging in to Google');
 
     // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome web');
-  });
-
-  it('should display menu', () => {
-    getMenu().contains(`You're up and running`);
-    getMenu().contains(`Learning materials`);
-    getMenu().contains(`Enable faster CI & better DX`);
+    getGreeting().contains('Tailwind css! web');
   });
 });

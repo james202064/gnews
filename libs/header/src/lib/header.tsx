@@ -1,4 +1,4 @@
-import './header.module.css';
+import styles from './header.module.css';
 
 /* eslint-disable-next-line */
 export interface HeaderProps {
@@ -15,7 +15,7 @@ export function Header(props: HeaderProps) {
       {data?.map((item, index) => {
         return <li key={index}>{item}</li>;
       })}
-      <button>Click</button>
+      <button className={styles['btn']}>Click</button>
     </div>
   );
 }
